@@ -5,10 +5,16 @@
         <title>New World Online</title>
         <link rel="stylesheet" href="./css/style.css">
         <meta name="New World Online" content="Experience New World right in your browser! No download required!">
+        <link rel="icon" type="image/png" href="./assets/favicon.ico">
     </head>
     <body>
+        <div id="top-buttons">
+            <img src="./img/buttons.png">
+        </div>
         <div id="QueueContainer">
-            <span>9999</span>
+            <div id="closeButton"></div>
+            <div id="cancelButton"></div>
+            <span id="QueuePosition">1213</span>
             <img src="./img/queue.png">
         </div>
         <div id="PlayButton">
@@ -20,10 +26,8 @@
             </div>
         </div>
         
-        <audio autoplay controls id="myaudio">
+        <audio autoplay controls id="bg-music">
             <source src="./assets/embark.mp3" type="audio/mpeg">
         </audio>
-
-        <script> document.getElementById('myaudio').play();</script>
     </body>
 </html>
