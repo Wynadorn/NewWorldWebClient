@@ -1,1 +1,29 @@
-Hello World
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+        <title>New World Online</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <meta name="New World Online" content="Experience New World right in your browser! No download required!">
+    </head>
+    <body>
+        <div id="QueueContainer">
+            <span>9999</span>
+            <img src="./img/queue.png">
+        </div>
+        <div id="PlayButton">
+            <div id="spinner">
+
+            </div>
+            <div id="PlayText">
+                <span>PLAY</span>
+            </div>
+        </div>
+        
+        <audio autoplay controls id="myaudio">
+            <source src="./assets/embark.mp3" type="audio/mpeg">
+        </audio>
+
+        <script> document.getElementById('myaudio').play();</script>
+    </body>
+</html>
